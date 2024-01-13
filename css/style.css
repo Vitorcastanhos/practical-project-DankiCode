@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", "Helvetica Neue";
+}
+
+section.main {
+	background: url(../img/background.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section.main .center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+section.main .center nav.menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+section.main .center nav.menu .items-menu {
+	text-align: right;
+}
+section.main .center nav.menu .items-menu a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+section.main .center nav.menu .items-menu a:hover {
+	border-bottom: 1px solid #ffdd33;
+}
+section.main .center nav.menu .items-menu a.contact-btn {
+	background-color: #0f3fd3;
+	padding: 10px;
+	border-radius: 5px;
+	line-height: 24px;
+}
+section.main .center nav.menu .items-menu a.contact-btn:hover {
+	border: 1px solid #ffdd33;
+	background-color: #0241ff;
+}
+section.main .center .mockup {
+	display: block;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+section.main .center .mockup h1 {
+	font-size: 50px;
+}
+section.main .center .mockup p {
+	font-size: 20px;
+	margin: 22px 0 50px;
+}
+section.main .center .mockup img {
+	width: 50%;
+}
+
+section.brands .center {
+	display: flex;
+	justify-content: space-around;
+	margin: 230px 0 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
